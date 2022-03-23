@@ -143,7 +143,7 @@ export default defineComponent({
     };
   },
   created: function () {
-    //if (localStorage.bd)
+    if (localStorage.bd)
     this.rows = JSON.parse(localStorage.bd);
     console.log(this.rows);
   },
